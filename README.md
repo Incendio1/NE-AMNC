@@ -9,7 +9,6 @@ Pubmed
 ```javascript 
 python main.py --dataset Pubmed --runs 10 --epochs 800 --dropout 0.0 --hidden 400 --hidden_z 400 --early_stopping 20 --lr=0.01 --weight_decay 0.0005 --alph 2 --beta 3 --K 3 --augmentation MIP --layer 1 2 3  --multi_layer 10
 ```
-### MIPGNNa
 Wisconsin
 ```javascript 
 python main.py --dataset Wisconsin --runs 10 --epochs 600 --dropout 0.1 --hidden 300 --hidden_z 300 --early_stopping 10 --lr=0.006 --weight_decay 0 --alph 0.05 --beta 0.06 --K 3 --augmentation MIP --layer 4 5  --multi_layer 10
